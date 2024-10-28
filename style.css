@@ -266,6 +266,37 @@ section {
     gap: 1rem;
 }
 
+/* About section */
+
+#about {
+    position: relative;
+}
+
+.about-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
 
 
 
