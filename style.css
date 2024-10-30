@@ -52,10 +52,10 @@ a {
 }
 
 a:hover {
-    color: rgb(255, 112, 112);
+    color: rgb(88, 147, 255);
     text-decoration: underline;
     text-underline-offset: 0.9rem;
-    text-decoration-color: rgb(255, 112, 112);
+    text-decoration-color: rgb(88, 147, 255);
 }
 
 .name {
@@ -197,7 +197,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
-    color: rgb(235, 107, 116);
+    color: rgb(67, 130, 248);
     margin-bottom: 0.3rem;
 }
 
@@ -213,6 +213,10 @@ section {
 .icon {
     cursor: pointer;
     height: 4.4rem; 
+}
+
+.icon_about {
+    height: 3.5rem;
 }
 
 /* Buttons */
@@ -296,6 +300,38 @@ section {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.skills-list {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+/* Experience section */
+
+.experience {
+    position: relative;
 }
 
 
