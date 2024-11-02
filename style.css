@@ -7,7 +7,7 @@
 
 body {
     font-family: "Rubik", sans-serif;
-    background-color: rgb(251, 244, 233)
+    background-color: rgb(252, 238, 219);
 }
 
 html {
@@ -38,6 +38,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     height: 17vh;
+    border-bottom: solid 0.15rem;
 }
 
 .nav-links {
@@ -276,6 +277,7 @@ section {
 
 #about {
     position: relative;
+    margin-bottom: 60px;
 }
 
 .about-container {
@@ -333,6 +335,7 @@ section {
 
 .about-me {
     color: black;
+    margin: 1em 0;
 }
 
 
