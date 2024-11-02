@@ -282,7 +282,6 @@ section {
 
 #about {
     position: relative;
-    margin-bottom: 60px;
 }
 
 .about-container {
@@ -348,7 +347,6 @@ section {
 
 #experience {
     position: relative;
-    margin-bottom: 139px;
 }
 
 .experience-sub-title {
@@ -439,7 +437,6 @@ article .icon {
 }
 
 .project-btn {
-    margin-top: 20px;
     color: black;
     border-color: rgb(163, 163, 163);
 }
@@ -459,8 +456,7 @@ article .icon {
 /* Contact */
 
 #contacts {
-    margin-top: 80px;
-    margin-bottom: -425px;
+    margin-bottom: -450px;
     display: flex;
     justify-content: center;
     flex-direction: column;
