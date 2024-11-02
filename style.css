@@ -9,10 +9,13 @@ body {
     font-family: "Rubik", sans-serif;
     /* background-color: rgb(255, 247, 236); */
     background-color: rgb(255, 255, 255);
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 }
 
 html {
     scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 
 /* paragraph styling */
@@ -157,10 +160,12 @@ section {
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    scroll-snap-align: start;
 }
 
 .section-container, #profile {
     display: flex;
+    scroll-snap-align: start;
 }
 
 /* Profile section */
@@ -348,6 +353,7 @@ section {
 
 #experience {
     position: relative;
+    margin-bottom: 140px;
 }
 
 .experience-sub-title {
