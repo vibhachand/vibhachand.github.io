@@ -7,7 +7,7 @@
 
 body {
     font-family: "Rubik", sans-serif;
-    background-color: rgb(252, 238, 219);
+    background-color: rgb(252, 241, 225);
 }
 
 html {
@@ -377,6 +377,30 @@ article .icon {
     cursor: default;
 }
 
+.experience-role {
+    margin-top: -25px;
+    color:rgb(35, 35, 35);
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.experience-dates {
+    margin-top: -15px;
+    font-weight: 300;
+}
+
+.experience-icon {
+    margin-top: 20px;
+    width: 180px;
+    height: auto;
+}
+
+.experience-description {
+    color: black;
+    font-weight: 350;
+    margin-top: -25px;
+}
+
 /* Projects section */
 
 #projects {
@@ -387,13 +411,19 @@ article .icon {
     margin-top: -1rem;
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
-    height: 26rem;
+    height: 32rem;
 }
 
 .project-img {
     border-radius: 2rem;
-    width: 70%;
-    height: 18.5rem;
+    width: 45%;
+    height: auto;
+}
+
+.project-img-2 {
+    border-radius: 2rem;
+    width: 80%;
+    height: auto;
 }
 
 .project-title {
@@ -402,8 +432,21 @@ article .icon {
 }
 
 .project-btn {
+    margin-top: 20px;
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+.project-description {
+    font-weight: 350;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 15px;
+    color: rgb(85, 85, 85);
+}
+
+.project-description li {
+    padding: 5px 0;
 }
 
 /* Contact */
