@@ -1,234 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
-</head>
-<body>
-    <nav id="desktop-nav">
-        <div class="name">Vibha Chandrasekar</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contacts">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="name">Vibha Chandrasekar</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="name">Vibha Chandrasekar</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
             </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="name">Vibha Chandrasekar</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+                </div>
             </div>
-        </div>
-    </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/profile.jpg" alt="Vibha Chandrasekar profile picture" class="profile-pic"/>  
-        </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Vibha Chandrasekar</h1>
-            <p class="section__text__p2">Computer Science Student</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Resume</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contacts'">Contact</button>
-            </div>
-            <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My Linkedin profile"
-                class="icon" onclick="window.open('https://www.linkedin.com/in/vibha-chandrasekar-3522481b0', '_blank')">
-                <img src="./assets/github.png" alt="My Github profile"
-                class="icon" onclick="window.open('https://github.com/vibhachand', '_blank')">
-            </div>
-        </div>
-    </section>
-    <section id="about">
-        <p class="section__text__p1"></p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
+        </nav>
+        <section id="profile">
             <div class="section__pic-container">
-                <img src="./assets/about.jpg" alt="Profile picture" class="about-pic"/>
+                <img src="./assets/profile.jpg" alt="Vibha Chandrasekar profile picture" class="profile-pic"/>  
             </div>
-            <div class="about-details-container">
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Vibha Chandrasekar</h1>
+                <p class="section__text__p2">Computer Science Student</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Resume</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contacts'">Contact Me</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="My Linkedin profile"
+                    class="icon" onclick="window.open('https://www.linkedin.com/in/vibha-chandrasekar-3522481b0', '_blank')">
+                    <img src="./assets/github.png" alt="My Github profile"
+                    class="icon" onclick="window.open('https://github.com/vibhachand', '_blank')">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1"></p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/about.jpg" alt="Profile picture" class="about-pic"/>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-container">
+                        <div class="details-container">
+                            <img src="./assets/education2.png" alt="education icon" class="icon_about"/>
+                            <h3>Education</h3>
+                            <p>Senior studying Computer Science at UC Davis</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="experience icon" class="icon_about"/>
+                            <h3>Skills</h3>
+                            <ul class="skills-list">
+                                <li>Python, JS, Kotlin, C, C++, R</li>
+                                <li>Pytorch</li>
+                                <li>React, Flask, HTML/CSS</li>
+                                <li>Git, SQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p class="about-me">I’m currently a Computer Science major at UC Davis interested
+                            in software engineering and bioinformatics. My previous experience as a biochemistry 
+                            major has driven my curiosity about how technology can help advance biological 
+                            research and applications. For any project that I take on, I am committed to producing high-quality work.
+                        </p>
+                        <p class="about-me">
+                            On campus, I’m involved in Women in Computer Science and Food Recovery Network,
+                            a volunteer organization dedicated to reducing food waste. 
+                            In my free time, I enjoy running on scenic trails, discovering new shows, and
+                            sketching. I am always open to new show recommmendations!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <p class="section__text__p1"></p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
                 <div class="about-container">
                     <div class="details-container">
-                        <img src="./assets/education2.png" alt="education icon" class="icon_about"/>
-                        <h3>Education</h3>
-                        <p>Senior studying Computer Science at UC Davis</p>
+                        <h2 class="experience-sub-title">National Institutes of Health</h2>
+                        <h3 class="experience-role">Data Science Intern</h3>
+                        <h4 class="experience-dates">June 2024 - August 2024</h4>
+                        <div class="article-container">
+                            <article>
+                                <img
+                                    src="./assets/nih.png" 
+                                    alt="NIH icon"
+                                    class="icon experience-icon"
+                                />
+                            </article>
+                            <p class="experience-description">This past summer, I interned at the National Human Genome 
+                                Research Institute (NHGRI), where I worked on developing 
+                                a convolutional neural network to assess the severity of a 
+                                rare disorder called Alkaptonuria. I gained experience with 
+                                Pytorch, FastAI, and Bash scripting, and learned a lot about 
+                                machine learning techniques and their applications in medicine.
+                            </p>
+                        </div>
                     </div>
                     <div class="details-container">
-                        <img src="./assets/experience.png" alt="experience icon" class="icon_about"/>
-                        <h3>Skills</h3>
-                        <ul class="skills-list">
-                            <li>Python, JS, Kotlin, C, C++, R</li>
-                            <li>Pytorch</li>
-                            <li>React, Flask, HTML/CSS</li>
-                            <li>Git, SQL</li>
+                        <h2 class="experience-sub-title">Ross-Ibarra Lab</h2>
+                        <h3 class="experience-role">Computational Biology Research Assistant</h3>
+                        <h4 class="experience-dates">June 2023 - June 2024</h4>
+                        <div class="article-container">
+                            <article>
+                                <img
+                                    src="./assets/ucdavis.png" 
+                                    alt="Experience icon"
+                                    class="icon experience-icon"
+                                />
+                            </article>
+                            <p class="experience-description">
+                                My interest in computational biology lead me to researching transposable element dynamics in maize, which are 
+                                genetic components that can replicate and "jump" within the genome. 
+                                I designed a simulation to model these elements using 
+                                SLiM, a genetic simulation software.
+                                I had the opportunity to present my findings at the 2024 UC Davis 
+                                Undergraduate Research Conference.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-container">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                                src="./assets/books.jpg"
+                                alt="Book Recommender"
+                                class="project-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Book Recommender</h2>
+                        <div class="project-container">
+                        <ul class="project-description">
+                            <li>Incorporates the k-Nearest Neighbors algorithm in a collaborative filtering model using Scikit-Learn and Pandas</li>
+                            <li>Full-stack web application with React as the frontend and Flask providing a REST API</li>
                         </ul>
+                        <div class="btn-container">
+                            <button 
+                                class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://github.com/vibhachand/KNN_book_recommender', '_blank')"
+                            >
+                                Github
+                            </button>
+                        </div>
+                        </div>
                     </div>
-                </div>
-                <div class="text-container">
-                    <p class="about-me">I’m currently a Computer Science major at UC Davis interested
-                         in software engineering and bioinformatics. My previous experience as a biochemistry 
-                         major has driven my curiosity about how technology can help advance biological 
-                         research and applications. For any project that I take on, I am committed to producing high-quality work.
-                    </p>
-                    <p class="about-me">
-                        On campus, I’m involved in Women in Computer Science and Food Recovery Network,
-                        a volunteer organization dedicated to reducing food waste. 
-                         In my free time, I enjoy running on scenic trails, discovering new shows, and
-                         sketching. I am always open to new show recommmendations!
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="experience">
-        <p class="section__text__p1"></p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-            <div class="about-container">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">National Institutes of Health</h2>
-                    <h3 class="experience-role">Data Science Intern</h3>
-                    <h4 class="experience-dates">June 2024 - August 2024</h4>
-                    <div class="article-container">
-                        <article>
-                            <img
-                                src="./assets/nih.png" 
-                                alt="NIH icon"
-                                class="icon experience-icon"
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                                src="./assets/alignment.gif"
+                                alt="DNA Sequence Alignment Calculator"
+                                class="project-img-2"
                             />
-                        </article>
-                        <p class="experience-description">This past summer, I interned at the National Human Genome 
-                            Research Institute (NHGRI), where I worked on developing 
-                            a convolutional neural network to assess the severity of a 
-                            rare disorder called Alkaptonuria. I gained experience with 
-                            Pytorch, FastAI, and Bash scripting, and learned a lot about 
-                            machine learning techniques and their applications in medicine.
-                        </p>
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Ross-Ibarra Lab</h2>
-                    <h3 class="experience-role">Computational Biology Research Assistant</h3>
-                    <h4 class="experience-dates">June 2023 - June 2024</h4>
-                    <div class="article-container">
-                        <article>
-                            <img
-                                src="./assets/ucdavis.png" 
-                                alt="Experience icon"
-                                class="icon experience-icon"
-                            />
-                        </article>
-                        <p class="experience-description">
-                            My interest in computational biology lead me to researching transposable element dynamics in maize, which are 
-                            genetic components that can replicate and "jump" within the genome. 
-                            I designed a simulation to model these elements using 
-                            SLiM, a genetic simulation software.
-                            I had the opportunity to present my findings at the 2024 UC Davis 
-                            Undergraduate Research Conference.
-                        </p>
+                        </div>
+                        <h2 class="experience-sub-title project-title">DNA Sequence Alignment Calculator</h2>
+                        <div class="project-container">
+                        <ul class="project-description">
+                            <li>Highly accurate DNA sequence alignment calculator using Python and the Needleman-Wunsch
+                                algorithm</li>
+                            <li>Full-stack application with a Flask backend, a React frontend, and PostgreSQL for storing
+                                alignment results</li>
+                        </ul>
+                        <div class="btn-container">
+                            
+                            <button 
+                                class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://github.com/vibhachand', '_blank')"
+                            >
+                                Github
+                            </button>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="projects">
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-container">
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img 
-                            src="./assets/books.jpg"
-                            alt="Book Recommender"
-                            class="project-img"
-                        />
-                    </div>
-                    <h2 class="experience-sub-title project-title">Book Recommender</h2>
-                    <ul class="project-description">
-                        <li>Incorporates the k-Nearest Neighbors algorithm in a collaborative filtering model using Scikit-Learn and Pandas</li>
-                        <li>Full-stack web application with React as the frontend and Flask providing a REST API</li>
+        </section>
+        <section id="contacts">
+            <p class="section__text__p1">Get in Touch!</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img 
+                        src="./assets/email.png"
+                        alt="Email icon"
+                        class="icon contact-icon"
+                        onclick="location.href='mailto:vibhamellow@gmail.com'"
+                    />
+                    <p><a href="mailto:vibhamellow@gmail.com">vibhamellow@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img 
+                        src="./assets/linkedin.png"
+                        alt="Linkedin icon"
+                        class="linkedin-icon"
+                        onclick="window.open('https://www.linkedin.com/in/vibha-chandrasekar-3522481b0', '_blank')"
+                    />
+                    <p class="linkedin-contact-link"><a onclick="window.open('https://www.linkedin.com/in/vibha-chandrasekar-3522481b0', '_blank')">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav class="nav-footer">
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contacts">Contact</a></li>
                     </ul>
-                    <div class="btn-container">
-                        <button 
-                            class="btn btn-color-2 project-btn"
-                            onclick="window.open('https://github.com/vibhachand/KNN_book_recommender', '_blank')"
-                        >
-                            Github
-                        </button>
-                    </div>
                 </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img 
-                            src="./assets/alignment.gif"
-                            alt="DNA Sequence Alignment Calculator"
-                            class="project-img-2"
-                        />
-                    </div>
-                    <h2 class="experience-sub-title project-title">DNA Sequence Alignment Calculator</h2>
-                    <ul class="project-description">
-                        <li>Highly accurate DNA sequence alignment calculator using Python and the Needleman-Wunsch
-                            algorithm</li>
-                        <li>Full-stack application with a Flask backend, a React frontend, and PostgreSQL for storing
-                            alignment results</li>
-                    </ul>
-                    <div class="btn-container">
-                        
-                        <button 
-                            class="btn btn-color-2 project-btn"
-                            onclick="window.open('https://github.com/vibhachand', '_blank')"
-                        >
-                            Github
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contacts">
-        <p class="section__text__p1">Get in Touch!</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img 
-                    src="./assets/email.png"
-                    alt="Email icon"
-                    class="icon contact-icon"
-                    onclick="location.href='mailto:vibhamellow@gmail.com'"
-                />
-                <p><a href="mailto:vibhamellow@gmail.com">vibhamellow@gmail.com</a></p>
-            </div>
-            <div class="contact-info-container">
-                <img 
-                    src="./assets/linkedin.png"
-                    alt="Linkedin icon"
-                    class="icon"
-                    onclick="window.open('https://www.linkedin.com/in/vibha-chandrasekar-3522481b0', '_blank')"
-                />
-                <p class="linkedin-contact-link"><a onclick="window.open('https://www.linkedin.com/in/vibha-chandrasekar-3522481b0', '_blank')">LinkedIn</a></p>
-            </div>
-        </div>
-    </section>
-    <script src="script.js"></script>
-</body>
+            </nav>
+            <p>Copyright &#169; 2024 Vibha Chandrasekar. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
 </html>

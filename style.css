@@ -20,7 +20,6 @@ p {
     color: rgb(85, 85, 85);
 }
 
-
 /* transition for links and button*/
 
 a, 
@@ -223,6 +222,11 @@ section {
     height: 4.4rem; 
 }
 
+.linkedin-icon {
+    cursor: pointer;
+    height: 4.4rem; 
+}
+
 .icon_about {
     height: 3.5rem;
 }
@@ -287,7 +291,7 @@ section {
 .about-container {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .about-details-container {
@@ -370,6 +374,15 @@ section {
     justify-content: space-around;
 }
 
+.project-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
 article {
     display: flex;
     width: 10rem;
@@ -415,20 +428,18 @@ article .icon {
     margin-top: -1rem;
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
-    height: 32rem;
 }
 
 .project-img {
     border-radius: 2rem;
-    width: 45%;
-    height: auto;
+    width: 50%;
+    height: 50%;
 }
 
 .project-img-2 {
-    margin-top: 13px;
     border-radius: 2rem;
     width: 80%;
-    height: auto;
+    height: 80%;
 }
 
 .project-title {
@@ -456,11 +467,11 @@ article .icon {
 /* Contact */
 
 #contacts {
-    margin-bottom: -450px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    margin-bottom: 30px;
 }
 
 .contact-info-upper-container {
@@ -474,6 +485,7 @@ article .icon {
     padding: 0.5rem;
     background-color: white;
 }
+
 
 .contact-info-container {
     display: flex;
@@ -496,6 +508,31 @@ article .icon {
     cursor: pointer;
 }
 
+/* Footer section */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+    margin-bottom: -740px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav-footer {
+    align-items: center;
+    justify-content: space-around;
+    height: 17vh;
+    border-bottom: solid 0.15rem;
+}
 
 
 
