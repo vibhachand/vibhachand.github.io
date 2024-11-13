@@ -13,6 +13,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 
 /* paragraph styling */
@@ -35,6 +36,7 @@ nav,
 }
 
 nav {
+    scroll-snap-align: start;
     align-items: center;
     justify-content: space-around;
     height: 17vh;
@@ -151,6 +153,7 @@ a:hover {
 /* Section styling */
 
 section {
+    scroll-snap-align: start;
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
@@ -165,6 +168,7 @@ section {
 /* Profile section */
 
 #profile {
+    scroll-snap-align: none;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
