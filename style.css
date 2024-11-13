@@ -201,6 +201,10 @@ section {
     font-size: 3rem;
     text-align: center;
     color: rgb(67, 130, 248);
+    margin-bottom: 0.85rem;
+}
+
+.section-title {
     margin-bottom: 2rem;
 }
 
@@ -414,7 +418,7 @@ article .icon {
 }
 
 .experience-description {
-    color: black;
+    color: rgb(10, 10, 10);
     font-weight: 349;
     margin-top: -25px;
 }
@@ -428,7 +432,7 @@ article .icon {
 .color-container {
     margin-top: -1rem;
     border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    background: white;
 }
 
 .project-img {
@@ -454,11 +458,11 @@ article .icon {
 }
 
 .project-description {
-    font-weight: 350;
+    font-weight: 349;
     margin-top: 10px;
     text-align: left;
     margin-left: 15px;
-    color: rgb(85, 85, 85);
+    color: rgb(10, 10, 10);
 }
 
 .project-description li {

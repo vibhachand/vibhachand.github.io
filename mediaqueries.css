@@ -124,5 +124,11 @@
     .profile-pic {
         height: 240px;
     }
-    
+    .title {
+        margin-bottom: 0.6rem;
+    }
+    .section__text__p1 {
+        margin-top: 3rem;
+        margin-bottom: 0rem;
+    }
 }
