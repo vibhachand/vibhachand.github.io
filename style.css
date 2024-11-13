@@ -201,7 +201,7 @@ section {
     font-size: 3rem;
     text-align: center;
     color: rgb(67, 130, 248);
-    margin-bottom: 0.3rem;
+    margin-bottom: 2rem;
 }
 
 #socials-container {
@@ -213,6 +213,7 @@ section {
 
 .profile-pic {
     border-radius: 2rem;
+    height: 410px;
 }
 
 /* Icons */

@@ -44,6 +44,9 @@
     .about-container {
         margin-top: 0;
     }
+    .profile-pic {
+        height: 320px;
+    }
 }
 
 
@@ -118,4 +121,8 @@
         border-bottom: none;
         border-top: 0 solid 15;
     }
+    .profile-pic {
+        height: 240px;
+    }
+    
 }
