@@ -131,4 +131,7 @@
         margin-top: 3rem;
         margin-bottom: 0rem;
     }
+    .html {
+        scroll-snap-type: none;
+    }
 }
