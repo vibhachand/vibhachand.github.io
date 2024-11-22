@@ -5,7 +5,7 @@ function toggleMenu() {
     icon.classList.toggle("open")
 }
 
-//add smooth scrolling
+// add smooth scrolling
 const anchors = document.querySelectorAll('a[href^="#"]');
 for (let i = 0; i < anchors.length; i++) {
     anchors[i].addEventListener('click', function(event) {

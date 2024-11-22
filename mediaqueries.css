@@ -131,7 +131,13 @@
         margin-top: 3rem;
         margin-bottom: 0rem;
     }
-    .html {
+    html {
         scroll-snap-type: none;
+    }
+    section {
+        scroll-snap-align: none;
+    }
+    nav {
+        scroll-snap-align: none;
     }
 }
